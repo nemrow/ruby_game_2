@@ -21,4 +21,5 @@ problems_array = [
 		["[1,2,3,4,5]", "array.delete(2)", [2]],
 		["[1,'a',nil,'b',5,nil]", "array.compact", [1,'a','b',5]],
 		["[1,2,'b',1,'c',2,'3']", "array.uniq", [1,2,'b','c',3]],
+		["[1, 2, 3]", "array.clear", []]
 	]
