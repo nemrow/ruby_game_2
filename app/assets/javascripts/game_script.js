@@ -12,6 +12,7 @@ $(document).ready(function(){
 		}
 		if (user_created_array.toString() == (problems_array[current_problem_num][2]).toString()){
 			current_problem_num = choose_next_problem();
+			$('.winning').stop().show().delay(1000).fadeOut(1000)
 			current_array_box = 1;
 			next_problem();
 		}

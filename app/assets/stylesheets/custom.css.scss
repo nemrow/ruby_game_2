@@ -32,7 +32,15 @@ input.array_input{
   width: 30px;
   height: 30px;
   float: left;
-  background-color: #000;
   cursor: pointer;
   display: none;
+}
+img.winning{
+	position: absolute;
+	top:12px;
+	right:5px;
+	display: none;
+}
+.make_rel{
+	position: relative;
 }
