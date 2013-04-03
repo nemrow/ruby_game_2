@@ -8,7 +8,7 @@ $(document).ready(function(){
 	function check_answer(){
 		var user_created_array = []
 		for (i=0 ; i < $('.array_input').length ; i ++) {
-			user_created_array.push($('.array_input_'+i).val())
+			user_created_array.push($('.array_input_'+i).val().replace(/"/g,"").replace(/'/g,""));
 		}
 		if (user_created_array.toString() == (problems_array[current_problem_num][2]).toString()){
 			current_problem_num = choose_next_problem();
