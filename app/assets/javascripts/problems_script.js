@@ -21,5 +21,9 @@ problems_array = [
 		["[1,2,3,4,5]", "array.delete(2)", [2]],
 		["[1,'a',nil,'b',5,nil]", "array.compact", [1,'a','b',5]],
 		["[1,2,'b',1,'c',2,'3']", "array.uniq", [1,2,'b','c',3]],
+<<<<<<< HEAD
 		["[1,2,'b',1,'c',2,'3']", "array.select{|e|e.to_s > '2'}", ['b', 'c', '3']],
+=======
+		["[1, 2, 3]", "array.clear", []]
+>>>>>>> 7aeaebb4dd33f2d87707a07446161d85f38090eb
 	]
