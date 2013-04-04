@@ -24,6 +24,7 @@ problems_array = [
 <<<<<<< HEAD
 		["[1,2,'b',1,'c',2,'3']", "array.select{|e|e.to_s > '2'}", ['b', 'c', '3']],
 =======
-		["[1, 2, 3]", "array.clear", []]
+		["[1, 2, 3]", "array.clear", []],
+		["["1", "2", "cat"]", "array.collect { |x| x + "!" }", ["a!", "b!", "cat!"]]
 >>>>>>> 7aeaebb4dd33f2d87707a07446161d85f38090eb
 	]
