@@ -25,6 +25,9 @@ $(document).ready(function(){
 		$('.answer_placer').text(problems_array[current_problem_num][2])
 		$('.array_input_text_boxes').html('<input class="array_input array_input_0" type="text">');
 		$('.array_input_0').focus();
+		if (current_array_box == 1){
+ 				$('.delete_element_button').hide();
+ 		}
 	}
 
 	// generate random number problem from problems_array
